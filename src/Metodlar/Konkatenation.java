@@ -19,6 +19,8 @@ public class Konkatenation {
          a = a.concat(b);
 
         System.out.println("length(a) = " + length(a));
+
+        System.out.println("equals(a,b) = " + a.equals( b));
     }
 
 
@@ -28,6 +30,10 @@ public class Konkatenation {
         return   a.length();
     }
 
-    public boolean equals(Objekt anObjekt)
+    public boolean equals( String a, String b){
+
+        return a.equals(b);
+
+    }
 
 }
